@@ -1,0 +1,61 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */
+
+  .navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  h1 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 58px;
+    margin: 0 0 58px;
+  }
+
+
+  p {
+    color: #adb7bd;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 30px;
+    margin: 0;
+
+
+  }
+
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: auto;
+  }
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: auto;
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: white;
+    padding: 15px;
+  }
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+
+    .row.content {
+      height: auto;
+    }
+  }
